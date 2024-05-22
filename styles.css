@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+pre {
+    width: 80%;
+    height: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #00ff00;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 14px;
+}

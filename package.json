@@ -1,0 +1,15 @@
+{
+  "name": "termux-web-terminal",
+  "version": "1.0.0",
+  "description": "A web interface to interact with Termux on your device.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "depd": "^2.0.0"
+  }
+}
